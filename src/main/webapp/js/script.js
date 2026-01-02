@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const ctaButton = document.querySelector('.cta-button');
     
     ctaButton.addEventListener('click', function() {
-        alert('Welcome! Thanks for your interest.');
+        alert('Welcome! Thanks for your interest from github actions.');
     });
 
     // Smooth scrolling for navigation links
