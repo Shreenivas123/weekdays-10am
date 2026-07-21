@@ -15,7 +15,7 @@ pipeline {
         }
         stage('deploy') {
             steps {
-                sh 'sudo cp target/my-java-app-1.0-SNAPSHOT.war /home/ec2-user/apache-tomcat-11.0.21/webapps/'
+                sh 'sudo cp /var/lib/jenkins/workspace/pipeline/target/beautiful-website-1.0.0.war /home/ubuntu/apache-tomcat-10.1.57/webapps'
             }
         }
     }
